@@ -1,0 +1,67 @@
+body {
+  line-height: 1.7em;
+  margin: 30px auto;
+  max-width: 750px;
+  padding: 30px;
+  font-family: 'Open Sans';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+section {
+  margin: 2.5em 0;
+}
+
+h2 {
+  margin-bottom: 1.2em;
+}
+
+svg.feather {
+  height: 1em;
+  margin-right: .35em;
+  margin-top: -4px;
+  pointer-events: none;
+  vertical-align: middle;
+  width: 1em;
+}
+
+.no-bullets ul {
+  padding-left: 0;
+}
+
+.no-bullets li {
+  list-style: none;
+}
+
+.showcase {
+  margin-top: 2em;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexbox > div:first-child {
+  margin-right: 20px;
+}
+
+.columns .flexbox:not(:first-child) {
+  margin-top: 1em;
+}
+
+.small {
+  font-size: 85%;
+}
+
+footer {
+  margin-top: 5em;
+}
+
+#formacao-adicional > div {
+  line-height: 1.5em;
+}
